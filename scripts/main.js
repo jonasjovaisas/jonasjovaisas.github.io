@@ -9,10 +9,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/firefox-logo.png') {
-        myImage.setAttribute('src', 'images/firefox-logo-2.png');
+    if (mySrc === 'images/firefox-logo.jpg') {
+        myImage.setAttribute('src', 'images/firefox-logo-2.jpg');
     } else {
-        myImage.setAttribute('src', 'images/firefox-logo.png');
+        myImage.setAttribute('src', 'images/firefox-logo.jpg');
     }
 };
 //--Image changing END
